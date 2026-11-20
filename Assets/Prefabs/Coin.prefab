@@ -4908,6 +4908,7 @@ GameObject:
   - component: {fileID: 3445926543609426467}
   - component: {fileID: 3512878896154301780}
   - component: {fileID: 4958336363829990135}
+  - component: {fileID: 5720839265487876995}
   - component: {fileID: 4074181676909203478}
   m_Layer: 6
   m_Name: Coin
@@ -5145,6 +5146,22 @@ MonoBehaviour:
         m_CallState: 2
   timerLength: 0.1
   timerValueUI: {fileID: 0}
+--- !u!114 &5720839265487876995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2257676315600973845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c124979c2d5e76a4aaf667c83ae8ab1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UICounter
+  counterText: {fileID: 0}
+  onComparedAndTrue:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &4074181676909203478
 AudioSource:
   m_ObjectHideFlags: 0
