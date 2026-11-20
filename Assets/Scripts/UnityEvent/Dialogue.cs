@@ -21,7 +21,6 @@ public class Dialogue : MonoBehaviour
         if (currentIndex < 0)
         {
             onStartDialogue?.Invoke();
-            nextButton?.onClick.AddListener(NextDialogue);
         }
         
         // Move to the next item in the list of dialogue-lines
@@ -37,7 +36,6 @@ public class Dialogue : MonoBehaviour
             textBox.text = "";
             onEndDialogue?.Invoke();
             currentIndex = -1;
-            nextButton?.onClick.RemoveListener(NextDialogue);
         }
     }
 }
